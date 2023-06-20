@@ -16,6 +16,7 @@ body {
 /*header section*/
 
 header,
+.hero,
 footer {
     background: #1f2937;
     color: antiquewhite;
@@ -23,7 +24,7 @@ footer {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 10px 5rem;
 }
@@ -36,18 +37,60 @@ nav ul {
     padding: 0;
 }
 
-ul a {
+ul a,
+.hero p {
     font-size: 18px;
     color: #e5e7eb;
     text-decoration: none;
 }
 
 .logo {
+    flex-shrink: 0;
     font-size: 24px;
     color: #f9faf8;
     font-weight: 900;
+    margin-right: 10rem;
     /*make text glow*/
 }
 
 /*hero section*/
 
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5rem;
+}
+
+#title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+#hero-btn {
+    align-self: flex-start;
+    background: #3882f6;
+    color: #f9faf8;
+    padding: 3px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero-left {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-basis: 450px;
+}
+
+.hero-right {
+    height: 200px;
+    width: 400px;
+    border-radius: 2px;
+    background-color: gray;
+}
+
+.hero p {
+    margin-bottom: 5px;
+}
