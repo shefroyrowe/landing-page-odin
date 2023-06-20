@@ -105,8 +105,7 @@ ul a,
     justify-content: center;
     align-items: center;
     gap: 36px;
-    margin-bottom: ;
-    padding: 2rem 5rem 10rem;
+    padding: 2rem 5rem 6.5rem;
 }
 
 .cards-header {
@@ -117,12 +116,14 @@ ul a,
 
 .content {
     display: flex;
+    flex-wrap: wrap;
     gap: 36px;
 }
 
 .card {
     height: 150px;
     width: 150px;
+    margin-bottom: 2rem;
     border: 2px solid #3882f6;
     border-radius: 10px;
     color: #1f2937;
@@ -133,3 +134,23 @@ ul a,
     width: 150px; 
     margin-bottom: 10px;
 }
+
+/*information section*/
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e5e7eb;
+    padding: 5rem;
+}
+
+.quote {
+    width: 700px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    line-height: 3rem;
+}
+
+/*form section*/
