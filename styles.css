@@ -94,3 +94,42 @@ ul a,
 .hero p {
     margin-bottom: 5px;
 }
+
+/*cards section
+    - header text: 36px, extra-bold, #1f2937
+*/
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    margin-bottom: ;
+    padding: 2rem 5rem 10rem;
+}
+
+.cards-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.content {
+    display: flex;
+    gap: 36px;
+}
+
+.card {
+    height: 150px;
+    width: 150px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    color: #1f2937;
+}
+
+.card img {
+    height: 150px;
+    width: 150px; 
+    margin-bottom: 10px;
+}
