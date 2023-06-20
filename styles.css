@@ -131,7 +131,7 @@ ul a,
 
 .card img {
     height: 150px;
-    width: 150px; 
+    width: 150px;
     margin-bottom: 10px;
 }
 
@@ -154,3 +154,30 @@ ul a,
 }
 
 /*form section*/
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+.form-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    border-radius: 3px;
+    width: 700px;
+    padding: 2rem 5rem;
+    background: #3882f6;
+    color: #f9faf8;
+}
+
+.form-btn {
+    border: 1px solid #f9faf8;
+    background: #3882f6;
+    color: #f9faf8;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
